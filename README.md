@@ -1,3 +1,4 @@
+A dynamic news website built using React, designed to offer users a seamless experience when browsing news articles. This project utilizes various React components to create a clean and organized interface, integrating live news data from an external API for real-time updates.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
