@@ -1,71 +1,69 @@
-A dynamic news website built using React, designed to offer users a seamless experience when browsing news articles. This project utilizes various React components to create a clean and organized interface, integrating live news data from an external API for real-time updates.
-# Getting Started with Create React App
+# 📰 Dynamic News Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A **dynamic news website** built using **React**, designed to offer users a seamless and intuitive experience when browsing news articles. This project integrates live news data from an external API to provide **real-time updates**, with various **React components** creating a clean and organized user interface.
 
-## Available Scripts
+## 🎯 Features
 
-In the project directory, you can run:
+- **🔴 Live News Updates**: Get the latest news from various categories directly from an external API.
+- **📑 Category Navigation**: Easily browse news articles based on different categories (Sports, Technology, Business, etc.).
+- **📱 Responsive Design**: Optimized for mobile, tablet, and desktop devices.
+- **🔄 Infinite Scroll**: Continuously loads more articles as the user scrolls down.
+- **⚡ Loading Indicator**: Displays a progress bar while fetching data.
+- **🌐 React Router Integration**: Smooth navigation without reloading pages.
 
-### `npm start`
+## 💻 Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: JavaScript library for building user interfaces.
+- **React Router**: For navigation between different pages.
+- **Bootstrap**: For responsive and modern UI components.
+- **API**: [NewsAPI](https://newsapi.org/) for fetching live news data.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📂 Project Structure
 
-### `npm test`
+```bash
+news/
+│
+├── build/
+├── node_modules/
+├── public/
+├── src/
+│   └── component/
+│       ├── loading.gif
+│       ├── Loading.js
+│       ├── Navbar.js
+│       ├── News.js
+│       ├── Newsitem.js
+├── App.css
+├── App.js
+├── App.test.js
+├── index.css
+└── index.js
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+## 🔧 Installation
+Clone the repository:
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+git clone https://github.com/dharmesh015/Daily-News.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## 🎨 UI Preview
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Here are screenshots of the website on different devices:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Laptop Screen                       
+ ![image](https://github.com/user-attachments/assets/ecb9cf59-68e3-4365-be61-4950e6b4ef8e)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Mobile Screen
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b2727d28-c376-4f6b-860b-a6b56e8c8868" alt="Mobile Screen" />
+</p>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
